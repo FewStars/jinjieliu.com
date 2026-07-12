@@ -132,6 +132,10 @@ export default function RootLayout({
         <link rel="icon" href={config.site.favicon} type="image/svg+xml" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400..700&display=swap"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `

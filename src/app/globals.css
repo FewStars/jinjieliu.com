@@ -1,5 +1,7 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400..700&display=swap');
+
+/* Source Serif 4 is loaded via a <link> stylesheet in src/app/layout.tsx
+   (an external @import here breaks Turbopack's CSS parser). */
 
 /* Explicitly set dark mode to use class strategy */
 @variant dark (&:where(.dark, .dark *));
