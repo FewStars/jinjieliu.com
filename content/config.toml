@@ -1,0 +1,86 @@
+[site]
+title = "Xinzhuo Zhang"
+description = "PhD candidate in Electrical Engineering at Durham University, researching microgrid control and fault detection in converter-dominated networks."
+favicon = "/favicon.svg"
+last_updated = "April 21, 2026"
+
+[author]
+name = "Xinzhuo Zhang"
+title = "PhD Candidate in Electrical Engineering"
+institution = "Durham University"
+avatar = "/profile.jpg"
+
+[social]
+# Contact information (leave blank or delete to hide)
+
+email = "xinzhuo.zhang@durham.ac.uk"
+location = "Durham, UK"
+location_url = "https://maps.app.goo.gl/7mnyd4JqFKRpuT6Z9"
+location_details = [
+  "Department of Engineering,",
+  "Durham University,",
+  "Durham, DH1 3LE, UK"
+]
+google_scholar = "https://scholar.google.com/citations?user=aGVgLoMAAAAJ&hl=en-uk"
+orcid = "https://orcid.org/0009-0003-2446-3587"
+github = "https://github.com/FewStars"
+linkedin = "https://www.linkedin.com/in/xinzhuo-zhang-002989327"
+
+[features]
+# Show a like button on the about page
+enable_likes = true
+
+# Display all subpages on a single page
+enable_one_page_mode = false
+
+[i18n]
+enabled = true
+locales = ["en", "zh"]
+default_locale = "en"
+# "auto" means the locale will be determined by the browser's language setting, "fixed" means the locale will be fixed to the default locale (but can be switched still, if you want to disable, set "enable=false")
+mode = "auto"
+fixed_locale = "en"
+# If true, PRISM will remember user's language preference in browser's localStorage
+persist = true
+# Show a language switcher on the top right corner
+switcher = true
+
+[i18n.labels]
+zh = "中文"
+en = "English"
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "Teaching"
+type = "page"
+target = "teaching"
+href = "/teaching"
+
+[[navigation]]
+title = "Awards"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "Services"
+type = "page"
+target = "services"
+href = "/services"
+
+[[navigation]]
+title = "CV"
+type = "page"
+target = "cv"
+href = "/cv"

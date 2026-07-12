@@ -1,0 +1,21 @@
+type = "card"
+title = "Awards & Funding"
+description = "Funding, fellowships, and recognitions received during PhD studies."
+
+[[items]]
+title = "Associate Fellow of the Higher Education Academy (AFHEA)"
+subtitle = "Advance HE"
+date = "Oct 2025"
+content = "Awarded AFHEA recognition for higher-education teaching practice."
+
+[[items]]
+title = "TESTBED2 Travel Grant"
+subtitle = "EU Horizon 2020 MSCA-RISE"
+date = "2025"
+content = "Travel grant for IEEE ICGEA 2025 in Singapore, funded through the EU Horizon 2020 MSCA-RISE (TESTBED2) programme."
+
+[[items]]
+title = "Durham Doctoral Studentship"
+subtitle = "Department of Engineering, Durham University"
+date = "2022 – 2026"
+content = "PhD studentship from the Department of Engineering, Durham University."

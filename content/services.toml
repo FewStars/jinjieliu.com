@@ -1,0 +1,9 @@
+type = "card"
+title = "Academic Service"
+description = "Peer review and community contributions."
+
+[[items]]
+title = "Peer Reviewer"
+subtitle = "IEEE Transactions on Smart Grid (IF 8.6)"
+date = "2025 – Present"
+content = "Reviewed manuscripts on microgrid control, converter-interfaced generation, and fault analysis."

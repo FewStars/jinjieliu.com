@@ -1,0 +1,9 @@
+type = "card"
+title = "学术服务"
+description = "同行评审与学术社区贡献。"
+
+[[items]]
+title = "同行评审专家"
+subtitle = "IEEE Transactions on Smart Grid（影响因子 8.6）"
+date = "2025 至今"
+content = "审阅微电网控制、变流器接口发电与故障分析方向的论文稿件。"

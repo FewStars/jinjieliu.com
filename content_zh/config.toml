@@ -1,0 +1,52 @@
+[site]
+title = "张薪卓"
+description = "英国杜伦大学电气工程博士生——研究微电网控制与变流器主导电网中的故障检测。"
+last_updated = "2026年4月21日"
+
+[author]
+name = "张薪卓"
+title = "电气工程博士生"
+institution = "杜伦大学"
+
+[social]
+location = "英国·杜伦"
+location_details = [
+  "英国杜伦大学工学院,",
+  "Durham, DH1 3LE, United Kingdom"
+]
+
+[[navigation]]
+title = "关于我"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "论文"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "教学"
+type = "page"
+target = "teaching"
+href = "/teaching"
+
+[[navigation]]
+title = "奖项"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "学术服务"
+type = "page"
+target = "services"
+href = "/services"
+
+[[navigation]]
+title = "简历"
+type = "page"
+target = "cv"
+href = "/cv"

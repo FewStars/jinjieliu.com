@@ -1,0 +1,4 @@
+type = "publication"
+title = "论文发表"
+description = "已发表、在投及在撰写中的学术论文。"
+source = "publications.bib"

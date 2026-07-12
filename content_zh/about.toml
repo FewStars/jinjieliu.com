@@ -1,0 +1,30 @@
+type = "about"
+title = "关于我"
+
+[profile]
+research_interests = [
+  "微电网自适应事件检测",
+  "构网型 / 跟网型变流器控制",
+  "变流器主导电网的故障分类",
+  "储能系统与交流混合微电网",
+  "新能源并网与电网运行"
+]
+
+[[sections]]
+id = "about"
+type = "markdown"
+source = "bio.md"
+title = "关于我"
+
+[[sections]]
+id = "featured_publications"
+type = "publications"
+title = "代表性论文"
+filter = "selected"
+limit = 5
+
+[[sections]]
+id = "news"
+type = "list"
+title = "最新动态"
+source = "news.toml"

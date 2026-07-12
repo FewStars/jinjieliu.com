@@ -1,0 +1,45 @@
+type = "card"
+title = "教学"
+description = "在英国杜伦大学担任助教与实验指导的经历；2025 年 10 月获英国高等教育学会 AFHEA 教学资格认证。"
+
+[[items]]
+title = "Introduction to Systems Modelling"
+subtitle = "杜伦大学 · 课堂组长"
+date = "2025 年 1 月"
+content = "为约 20 名本科生主持系统建模课程的工作坊。"
+tags = ["本科生", "课堂组长"]
+
+[[items]]
+title = "Computer Programming"
+subtitle = "杜伦大学 · 助教"
+date = "2024 年 10 月"
+content = "为约 50 名本科生主持编程实验课。"
+tags = ["本科生", "助教"]
+
+[[items]]
+title = "Dynamic Simulation"
+subtitle = "杜伦大学 · 助教"
+date = "2024 年 1 月"
+content = "为约 20 名本科生主持动力学仿真实验课。"
+tags = ["本科生", "助教"]
+
+[[items]]
+title = "DC and Induction Motor Laboratory"
+subtitle = "杜伦大学 · 实验指导"
+date = "2023 年 5 月"
+content = "协助约 20 名本科生完成直流电机与感应电机实验。"
+tags = ["本科生", "实验"]
+
+[[items]]
+title = "Control and Signal Processing"
+subtitle = "杜伦大学 · 助教"
+date = "2022 年 10 月"
+content = "为约 20 名本科生主持控制系统与信号处理实验课。"
+tags = ["本科生", "助教"]
+
+[[items]]
+title = "AFHEA 教学资格认证"
+subtitle = "英国高等教育学会（Advance HE）"
+date = "2025 年 10 月"
+content = "基于在杜伦大学的本科教学实践取得的 AFHEA（Associate Fellow, Higher Education Academy）资格认证。"
+tags = ["教学资格"]

@@ -1,0 +1,45 @@
+type = "card"
+title = "Teaching"
+description = "Teaching and demonstrator roles at Durham University. Associate Fellow of the Higher Education Academy (AFHEA) since October 2025."
+
+[[items]]
+title = "Introduction to Systems Modelling"
+subtitle = "Workshop Leader — Durham University"
+date = "Jan 2025"
+content = "Led workshop sessions for approximately 20 undergraduate students on systems-modelling fundamentals."
+tags = ["Undergraduate", "Workshop Leader"]
+
+[[items]]
+title = "Computer Programming"
+subtitle = "Demonstrator — Durham University"
+date = "Oct 2024"
+content = "Demonstrated programming lab sessions for approximately 50 undergraduate students."
+tags = ["Undergraduate", "Demonstrator"]
+
+[[items]]
+title = "Dynamic Simulation"
+subtitle = "Demonstrator — Durham University"
+date = "Jan 2024"
+content = "Supported lab sessions on dynamic system simulation for approximately 20 undergraduates."
+tags = ["Undergraduate", "Demonstrator"]
+
+[[items]]
+title = "DC and Induction Motor Laboratory"
+subtitle = "Lab Assistant — Durham University"
+date = "May 2023"
+content = "Assisted laboratory experiments on DC and induction motors for approximately 20 undergraduate students."
+tags = ["Undergraduate", "Laboratory"]
+
+[[items]]
+title = "Control and Signal Processing"
+subtitle = "Demonstrator — Durham University"
+date = "Oct 2022"
+content = "Demonstrated laboratory sessions on control systems and signal processing for approximately 20 undergraduates."
+tags = ["Undergraduate", "Demonstrator"]
+
+[[items]]
+title = "Associate Fellow of the Higher Education Academy (AFHEA)"
+subtitle = "Advance HE"
+date = "Oct 2025"
+content = "Awarded AFHEA recognition for teaching practice at Durham University."
+tags = ["Fellowship"]
