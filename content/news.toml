@@ -1,19 +1,51 @@
 [[news]]
-date = "2026-03"
-content = "PhD thesis *Adaptive Event Detection and Fault Classification for Microgrids under GFL-to-GFM Transition* submitted at Durham University."
+date = "2026"
+content = "Appointed **Young Editorial Board Member** of *IET Energy Systems Integration*."
+
+[[news]]
+date = "2026"
+content = "Organising the *Joint-University WES Research Conference* for INWED 2026 as Research Lead of WES Durham, and co-organised the *ECR Net Zero 2026* conference with the Supergen Energy Networks Hub ECR committee."
+
+[[news]]
+date = "2026-01"
+content = "Visiting Postdoctoral Research Associate at **Friedrich-Alexander-Universität Erlangen-Nürnberg**, collaborating on communication-constrained virtual power plant optimisation."
 
 [[news]]
 date = "2025-10"
-content = "Awarded **Associate Fellow of the Higher Education Academy (AFHEA)** by Advance HE."
+content = "First-author paper on bi-level low-carbon scheduling of distribution networks with multiple technical VPPs presented at **IEEE PES ISGT Europe 2025**, Valletta, Malta."
 
 [[news]]
-date = "2025-08"
-content = "Gave an oral presentation at the Int. Conf. on Green Energy and Resources (ICGER), Shandong University."
+date = "2025"
+content = "Awarded the **Seal of Excellence** by the European Commission for my MSCA Postdoctoral Fellowships 2024 proposal (score > 85%)."
+
+[[news]]
+date = "2025-05"
+content = "Visiting Postdoctoral Research Associate (remote) at **Princeton University**, collaborating with Prof. H. Vincent Poor on low-carbon resilient transition strategies for power systems."
 
 [[news]]
 date = "2025-03"
-content = "First-author paper on dynamic microgrid control with BESS presented at [IEEE ICGEA 2025](https://doi.org/10.1109/ICGEA64602.2025.11009642), Singapore — travel grant funded by EU Horizon 2020 MSCA-RISE (TESTBED2)."
+content = "Co-authored paper on dynamic microgrid control with BESS presented at [IEEE ICGEA 2025](https://doi.org/10.1109/ICGEA64602.2025.11009642), Singapore."
 
 [[news]]
-date = "2025-01"
-content = "Started a six-month secondment as **Visiting Researcher** at the Institute of Electrical Engineering, Chinese Academy of Sciences (Beijing) with Prof. Wei Pei's group."
+date = "2024-10"
+content = "Gave an invited talk at the **AI for NetZero Webinar** (YouTube Live); earlier in 2024 spoke at the CHEDDAR 6G Digital Twins Workshop, the VPP-WARD VPP & AI Workshop, and the EPSRC Supergen Risk & Resilience Day, Newcastle."
+
+[[news]]
+date = "2024"
+content = "Awarded **Associate Fellow of the Higher Education Academy (AFHEA)**."
+
+[[news]]
+date = "2024"
+content = "First-author paper on ultra-short-term wind power forecasting presented at [IEEE IECON 2024](https://doi.org/10.1109/IECON55916.2024.10905784)."
+
+[[news]]
+date = "2023-09"
+content = "Joined **Durham University** as a Postdoctoral Research Associate in the Department of Engineering, working on the EPSRC VPP-WARD and CHEDDAR projects."
+
+[[news]]
+date = "2023-07"
+content = "Completed my PhD in Computer and Information Engineering at **The Chinese University of Hong Kong**, supervised by Prof. Junhua Zhao."
+
+[[news]]
+date = "2022"
+content = "Received the **Best Paper Award** at the IEEE 5th International Electrical and Energy Conference ([CIEEC 2022](https://doi.org/10.1109/CIEEC54735.2022.9846214))."

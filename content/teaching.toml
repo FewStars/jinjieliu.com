@@ -1,45 +1,31 @@
 type = "card"
 title = "Teaching"
-description = "Teaching and demonstrator roles at Durham University. Associate Fellow of the Higher Education Academy (AFHEA) since October 2025."
+description = "Seven years of teaching experience across the UK and China. Associate Fellow of the Higher Education Academy (AFHEA) since 2024."
 
 [[items]]
-title = "Introduction to Systems Modelling"
-subtitle = "Workshop Leader — Durham University"
-date = "Jan 2025"
-content = "Led workshop sessions for approximately 20 undergraduate students on systems-modelling fundamentals."
-tags = ["Undergraduate", "Workshop Leader"]
+title = "MSc Modules: Environmental Engineering, Smart Energy Networks, Planning and Contract Law"
+subtitle = "Teaching Assistant — Durham University"
+date = "Oct 2024 – Present"
+content = "Led MSc self-study teaching sessions across three modules (ENGI 46715, ENGI 48115, ENGI 47815): group discussions, worked problems, and individual coursework support. Guided students through energy system modelling (power flow, demand-side optimisation, renewable integration) and MATLAB-based computational exercises; provided regular feedback to module leaders."
+tags = ["MSc", "Teaching Assistant"]
 
 [[items]]
-title = "Computer Programming"
-subtitle = "Demonstrator — Durham University"
-date = "Oct 2024"
-content = "Demonstrated programming lab sessions for approximately 50 undergraduate students."
-tags = ["Undergraduate", "Demonstrator"]
+title = "Student Supervision"
+subtitle = "Durham University"
+date = "2023 – Present"
+content = "Co-supervised a PhD student on grid-forming/grid-following converter control with AI-based strategies, and three BEng/MSc project students on carbon-aware grid optimisation and wildfire impact on power systems."
+tags = ["PhD", "BEng/MSc", "Supervision"]
 
 [[items]]
-title = "Dynamic Simulation"
-subtitle = "Demonstrator — Durham University"
-date = "Jan 2024"
-content = "Supported lab sessions on dynamic system simulation for approximately 20 undergraduates."
-tags = ["Undergraduate", "Demonstrator"]
-
-[[items]]
-title = "DC and Induction Motor Laboratory"
-subtitle = "Lab Assistant — Durham University"
-date = "May 2023"
-content = "Assisted laboratory experiments on DC and induction motors for approximately 20 undergraduate students."
-tags = ["Undergraduate", "Laboratory"]
-
-[[items]]
-title = "Control and Signal Processing"
-subtitle = "Demonstrator — Durham University"
-date = "Oct 2022"
-content = "Demonstrated laboratory sessions on control systems and signal processing for approximately 20 undergraduates."
-tags = ["Undergraduate", "Demonstrator"]
+title = "Electrical Power Systems, Energy Economics, Electricity Market, Linear Algebra"
+subtitle = "Teaching Assistant — The Chinese University of Hong Kong, Shenzhen"
+date = "Sep 2018 – Jul 2023"
+content = "Independently designed and delivered tutorial materials for four English-medium modules (30–50 students each), including three newly launched courses with no prior materials. Designed MATLAB/Python programming assignments, delivered guest lectures on power flow analysis, and managed courses via Blackboard. Student evaluation rose from 5.31 to 5.72/6.0 over five years, exceeding the school average."
+tags = ["Undergraduate", "Teaching Assistant", "English-medium"]
 
 [[items]]
 title = "Associate Fellow of the Higher Education Academy (AFHEA)"
 subtitle = "Advance HE"
-date = "Oct 2025"
-content = "Awarded AFHEA recognition for teaching practice at Durham University."
+date = "2024"
+content = "AFHEA recognition for higher-education teaching practice, supported by Durham pedagogical training including inclusive curriculum design."
 tags = ["Fellowship"]

@@ -1,30 +1,30 @@
 [site]
-title = "Xinzhuo Zhang"
-description = "PhD candidate in Electrical Engineering at Durham University, researching microgrid control and fault detection in converter-dominated networks."
+title = "Jinjie Liu"
+description = "Postdoctoral Research Associate at Durham University, working on AI-informed digital twins, virtual power plants, and carbon-aware operation of sustainable energy systems."
 favicon = "/favicon.svg"
-last_updated = "April 21, 2026"
+last_updated = "July 12, 2026"
 
 [author]
-name = "Xinzhuo Zhang"
-title = "PhD Candidate in Electrical Engineering"
+name = "Jinjie Liu"
+title = "Postdoctoral Research Associate in Energy Systems"
 institution = "Durham University"
 avatar = "/profile.jpg"
 
 [social]
 # Contact information (leave blank or delete to hide)
 
-email = "xinzhuo.zhang@durham.ac.uk"
+email = "jinjie.liu.energy@gmail.com"
 location = "Durham, UK"
-location_url = "https://maps.app.goo.gl/7mnyd4JqFKRpuT6Z9"
+location_url = "https://www.google.com/maps/search/?api=1&query=Department+of+Engineering+Durham+University"
 location_details = [
   "Department of Engineering,",
   "Durham University,",
   "Durham, DH1 3LE, UK"
 ]
-google_scholar = "https://scholar.google.com/citations?user=aGVgLoMAAAAJ&hl=en-uk"
-orcid = "https://orcid.org/0009-0003-2446-3587"
-github = "https://github.com/FewStars"
-linkedin = "https://www.linkedin.com/in/xinzhuo-zhang-002989327"
+google_scholar = "https://scholar.google.com/citations?user=4NdWTLUAAAAJ"
+orcid = "https://orcid.org/0000-0001-6297-7640"
+github = "https://github.com/Judy0718"
+linkedin = "https://www.linkedin.com/in/jinjie-liu-553226275"
 
 [features]
 # Show a like button on the about page

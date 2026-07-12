@@ -1,21 +1,51 @@
 type = "card"
 title = "Awards & Funding"
-description = "Funding, fellowships, and recognitions received during PhD studies."
+description = "Fellowships, scholarships, and recognitions."
 
 [[items]]
-title = "Associate Fellow of the Higher Education Academy (AFHEA)"
-subtitle = "Advance HE"
-date = "Oct 2025"
-content = "Awarded AFHEA recognition for higher-education teaching practice."
-
-[[items]]
-title = "TESTBED2 Travel Grant"
-subtitle = "EU Horizon 2020 MSCA-RISE"
+title = "Seal of Excellence, MSCA Postdoctoral Fellowships 2024"
+subtitle = "European Commission"
 date = "2025"
-content = "Travel grant for IEEE ICGEA 2025 in Singapore, funded through the EU Horizon 2020 MSCA-RISE (TESTBED2) programme."
+content = "Awarded the Seal of Excellence for a Marie Skłodowska-Curie Postdoctoral Fellowship proposal scoring above 85%."
 
 [[items]]
-title = "Durham Doctoral Studentship"
-subtitle = "Department of Engineering, Durham University"
-date = "2022 – 2026"
-content = "PhD studentship from the Department of Engineering, Durham University."
+title = "Best Paper Award"
+subtitle = "IEEE 5th International Electrical and Energy Conference (CIEEC)"
+date = "2022"
+content = "Best Paper Award at IEEE CIEEC 2022 for work on bidding behaviour analysis in joint electricity and carbon markets."
+
+[[items]]
+title = "Postgraduate Fellowship"
+subtitle = "The Chinese University of Hong Kong"
+date = "2018 – 2023"
+content = "Competitive fellowship supporting PhD studies at CUHK."
+
+[[items]]
+title = "Postgraduate Fellowship"
+subtitle = "Shenzhen Research Institute of Big Data"
+date = "2020 – 2022"
+content = "Fellowship supporting research on smart city electricity behaviour and carbon emissions."
+
+[[items]]
+title = "Outstanding Graduate of Beijing & Outstanding Graduate of the University"
+subtitle = "Beijing Municipal Education Commission / North China Electric Power University"
+date = "2018"
+content = "Graduated with a grade of 92/100 in Electrical Engineering and Automation."
+
+[[items]]
+title = "National Excellence Award"
+subtitle = "National University Student Innovation Programme, China"
+date = "2017"
+content = "National-level recognition in the University Student Innovation Programme."
+
+[[items]]
+title = "Honourable Mention"
+subtitle = "Mathematical Contest in Modelling (MCM)"
+date = "2016 – 2017"
+content = "Honourable Mention in the international Mathematical Contest in Modelling."
+
+[[items]]
+title = "First Class Scholarship"
+subtitle = "North China Electric Power University"
+date = "2015 – 2018"
+content = "First Class Scholarship in four consecutive years of undergraduate study."

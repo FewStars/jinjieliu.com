@@ -3,11 +3,11 @@ title = "About"
 
 [profile]
 research_interests = [
-  "Microgrid adaptive event detection",
-  "Grid-forming / grid-following converter control",
-  "Fault classification in converter-dominated networks",
-  "Battery energy storage and hybrid AC microgrids",
-  "Renewable energy integration and grid operations"
+  "AI-informed digital twins for sustainable energy systems",
+  "Virtual power plants and low-carbon scheduling",
+  "Carbon-aware optimisation and real-time emission estimation",
+  "Resilience of renewable-rich distribution networks",
+  "Energy management for transport electrification and EV charging"
 ]
 
 [[sections]]

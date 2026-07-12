@@ -1,9 +1,51 @@
 type = "card"
 title = "Academic Service"
-description = "Peer review and community contributions."
+description = "Editorial, review, standards, and community contributions."
 
 [[items]]
-title = "Peer Reviewer"
-subtitle = "IEEE Transactions on Smart Grid (IF 8.6)"
-date = "2025 – Present"
-content = "Reviewed manuscripts on microgrid control, converter-interfaced generation, and fault analysis."
+title = "Young Editorial Board Member"
+subtitle = "IET Energy Systems Integration"
+date = "2026 – Present"
+content = "Serving on the Young Editorial Board of IET Energy Systems Integration."
+
+[[items]]
+title = "Journal Reviewer"
+subtitle = "Applied Energy, IEEE Trans. Industrial Informatics, IEEE Trans. Network Science and Engineering, and others"
+date = "Ongoing"
+content = "Regular reviewer for Applied Energy, IEEE Transactions on Industrial Informatics, IEEE Transactions on Network Science and Engineering, Journal of Cleaner Production, International Journal of Electrical Power and Energy Systems, IET Smart Grid, and Carbon Neutrality."
+
+[[items]]
+title = "Technical Program Committee Member & Conference Reviewer"
+subtitle = "IEEE SmartGridComm 2025/2026 and others"
+date = "2023 – Present"
+content = "TPC Member for IEEE SmartGridComm 2025/2026; reviewer for IEEE PES General Meeting 2025, IEEE EI2 2023/2024, and ACC 2025."
+
+[[items]]
+title = "Research Lead, Women in Engineering Society (WES) Durham"
+subtitle = "Durham University"
+date = "Ongoing"
+content = "Initiated and lead the WES Durham research programme; organising the Joint-University WES Research Conference for INWED 2026."
+
+[[items]]
+title = "Committee Member, Supergen Energy Networks Hub ECR"
+subtitle = "EPSRC Supergen Energy Networks Hub"
+date = "Ongoing"
+content = "Co-organised the ECR Net Zero 2026 conference and served as Session Co-chair."
+
+[[items]]
+title = "Standards Participation"
+subtitle = "IEEE P2781 Load Modelling and Simulation Working Group"
+date = "2022"
+content = "Participated in drafting standards for load modelling and simulation, characterising load behaviour under various system conditions."
+
+[[items]]
+title = "Memberships"
+subtitle = "IEEE, Durham Energy Institute, University College SCR"
+date = "2019 – Present"
+content = "Member of IEEE (since 2019); Fellow of the Durham Energy Institute (DEI); Member of the University College Senior Common Room."
+
+[[items]]
+title = "Public Engagement"
+subtitle = "Durham University"
+date = "2024 – Present"
+content = "Represented Durham Engineering at the Get Set Green outreach event, and demonstrated Smart Grid Lab research to visiting DESNZ government representatives."
