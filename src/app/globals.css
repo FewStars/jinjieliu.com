@@ -1,12 +1,5 @@
 @import "tailwindcss";
-
-@font-face {
-  font-family: "Georgia CDN";
-  src: url("https://jialeliu.com/fonts/georgiab.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400..700&display=swap');
 
 /* Explicitly set dark mode to use class strategy */
 @variant dark (&:where(.dark, .dark *));
@@ -15,28 +8,28 @@
 :root,
 .light {
   /* Light theme colors */
-  --background: #fefffe;
-  --foreground: #0f172a;
-  
-  /* Brand colors - Deep Navy & Gold */
-  --primary: #1e293b;
-  --primary-light: #334155;
-  --primary-dark: #0f172a;
-  --accent: #d4a562;
-  --accent-light: #e4b976;
-  --accent-dark: #b8914d;
-  
-  /* Neutral colors */
-  --neutral-50: #f8fafc;
-  --neutral-100: #f1f5f9;
-  --neutral-200: #e2e8f0;
-  --neutral-300: #cbd5e1;
-  --neutral-400: #94a3b8;
-  --neutral-500: #64748b;
-  --neutral-600: #475569;
-  --neutral-700: #334155;
-  --neutral-800: #1e293b;
-  --neutral-900: #0f172a;
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+
+  /* Brand colors - Editorial Ink & Nature Masthead Red */
+  --primary: #222222;
+  --primary-light: #3f3f3f;
+  --primary-dark: #000000;
+  --accent: #e2231a;
+  --accent-light: #f04438;
+  --accent-dark: #c41e17;
+
+  /* Neutral colors (warm stone greys) */
+  --neutral-50: #fafaf9;
+  --neutral-100: #f5f5f4;
+  --neutral-200: #e7e5e4;
+  --neutral-300: #d6d3d1;
+  --neutral-400: #a8a29e;
+  --neutral-500: #78716c;
+  --neutral-600: #57534e;
+  --neutral-700: #44403c;
+  --neutral-800: #292524;
+  --neutral-900: #1c1917;
   
   /* Semantic colors */
   --success: #10b981;
@@ -86,7 +79,7 @@
   
   /* Typography */
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-serif: 'Georgia CDN', Georgia, serif;
+  --font-serif: 'Source Serif 4', Georgia, serif;
   --font-mono: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
   
   /* Font sizes */
@@ -144,33 +137,33 @@ html[data-locale^="zh"] {
 
 /* Dark mode styles */
 .dark {
-  --background: #0f172a;
-  --foreground: #f8fafc;
-  
+  --background: #1c1917;
+  --foreground: #fafaf9;
+
   /* Adjust colors for dark mode */
-  --primary: #f8fafc;
-  --primary-light: #e2e8f0;
-  --primary-dark: #cbd5e1;
-  --accent: #e4b976;
-  --accent-light: #f0c674;
-  --accent-dark: #d4a562;
-  
+  --primary: #fafaf9;
+  --primary-light: #e7e5e4;
+  --primary-dark: #d6d3d1;
+  --accent: #f0655a;
+  --accent-light: #f58a80;
+  --accent-dark: #e2231a;
+
   /* Dark mode glass effect */
-  --glass-bg: rgba(15, 23, 42, 0.8);
+  --glass-bg: rgba(28, 25, 23, 0.8);
   --glass-border: rgba(255, 255, 255, 0.1);
   --glass-shadow: rgba(0, 0, 0, 0.5);
-  
+
   /* Neutral colors for dark mode - properly inverted */
-  --neutral-50: #0f172a;
-  --neutral-100: #1e293b;
-  --neutral-200: #334155;
-  --neutral-300: #475569;
-  --neutral-400: #64748b;
-  --neutral-500: #94a3b8;
-  --neutral-600: #cbd5e1;
-  --neutral-700: #e2e8f0;
-  --neutral-800: #1e293b;
-  --neutral-900: #0f172a;
+  --neutral-50: #1c1917;
+  --neutral-100: #292524;
+  --neutral-200: #44403c;
+  --neutral-300: #57534e;
+  --neutral-400: #78716c;
+  --neutral-500: #a8a29e;
+  --neutral-600: #d6d3d1;
+  --neutral-700: #e7e5e4;
+  --neutral-800: #292524;
+  --neutral-900: #1c1917;
 }
 
 
@@ -249,7 +242,7 @@ body {
 }
 
 .dark .card-bg {
-  background-color: #1e293b;
+  background-color: #292524;
   /* Soften card borders in dark mode only */
-  border-color: rgba(148, 163, 184, 0.24);
+  border-color: rgba(168, 162, 158, 0.24);
 }
