@@ -1,9 +1,51 @@
 type = "card"
 title = "学术服务"
-description = "同行评审与学术社区贡献。"
+description = "编委、审稿、标准制定与学术社区贡献。"
 
 [[items]]
-title = "同行评审专家"
-subtitle = "IEEE Transactions on Smart Grid（影响因子 8.6）"
-date = "2025 至今"
-content = "审阅微电网控制、变流器接口发电与故障分析方向的论文稿件。"
+title = "青年编委"
+subtitle = "IET Energy Systems Integration"
+date = "2026 至今"
+content = "担任 IET Energy Systems Integration 期刊青年编委。"
+
+[[items]]
+title = "期刊审稿人"
+subtitle = "Applied Energy、IEEE Trans. Industrial Informatics、IEEE Trans. Network Science and Engineering 等"
+date = "长期"
+content = "长期审稿期刊包括 Applied Energy、IEEE Transactions on Industrial Informatics、IEEE Transactions on Network Science and Engineering、Journal of Cleaner Production、International Journal of Electrical Power and Energy Systems、IET Smart Grid、Carbon Neutrality 等。"
+
+[[items]]
+title = "技术程序委员会（TPC）委员 · 会议审稿人"
+subtitle = "IEEE SmartGridComm 2025/2026 等"
+date = "2023 至今"
+content = "IEEE SmartGridComm 2025/2026 TPC 委员；IEEE PES General Meeting 2025、IEEE EI2 2023/2024、ACC 2025 审稿人。"
+
+[[items]]
+title = "研究负责人 · 女性工程师学会（WES）杜伦分会"
+subtitle = "杜伦大学"
+date = "进行中"
+content = "发起并主持 WES 杜伦研究项目；组织 INWED 2026 多校联合 WES 研究会议。"
+
+[[items]]
+title = "青年学者委员会委员"
+subtitle = "EPSRC Supergen Energy Networks Hub"
+date = "进行中"
+content = "共同组织 ECR Net Zero 2026 会议并担任分会场共同主席。"
+
+[[items]]
+title = "标准制定"
+subtitle = "IEEE P2781 负荷建模与仿真工作组"
+date = "2022"
+content = "参与 IEEE P2781 负荷建模与仿真标准起草，研究各类系统工况下的负荷特性刻画。"
+
+[[items]]
+title = "学术团体"
+subtitle = "IEEE · 杜伦能源研究院 · University College SCR"
+date = "2019 至今"
+content = "IEEE 会员（2019 至今）；杜伦能源研究院（DEI）Fellow；University College Senior Common Room 成员。"
+
+[[items]]
+title = "公众参与"
+subtitle = "杜伦大学"
+date = "2024 – 2026"
+content = "代表杜伦工学院参加 Get Set Green 科普活动，并向到访的英国能源安全与净零部（DESNZ）官员演示智能电网实验室研究成果。"

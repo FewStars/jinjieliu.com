@@ -1,45 +1,31 @@
 type = "card"
 title = "教学"
-description = "在英国杜伦大学担任助教与实验指导的经历；2025 年 10 月获英国高等教育学会 AFHEA 教学资格认证。"
+description = "在中英两国累计七年教学经验；2024 年获英国高等教育学会 AFHEA 教学资格认证。"
 
 [[items]]
-title = "Introduction to Systems Modelling"
-subtitle = "杜伦大学 · 课堂组长"
-date = "2025 年 1 月"
-content = "为约 20 名本科生主持系统建模课程的工作坊。"
-tags = ["本科生", "课堂组长"]
-
-[[items]]
-title = "Computer Programming"
+title = "硕士模块：环境工程、智慧能源网络、规划与合同法"
 subtitle = "杜伦大学 · 助教"
-date = "2024 年 10 月"
-content = "为约 50 名本科生主持编程实验课。"
-tags = ["本科生", "助教"]
+date = "2024 年 10 月 – 2026 年"
+content = "主持三门硕士模块（ENGI 46715、ENGI 48115、ENGI 47815）的自学辅导课：组织小组讨论、精讲例题、辅导课程作业。指导学生将能源系统建模（潮流分析、需求侧优化、新能源并网）与 MATLAB 计算练习应用于课程项目，并定期向模块负责人反馈教学情况。"
+tags = ["硕士", "助教"]
 
 [[items]]
-title = "Dynamic Simulation"
-subtitle = "杜伦大学 · 助教"
-date = "2024 年 1 月"
-content = "为约 20 名本科生主持动力学仿真实验课。"
-tags = ["本科生", "助教"]
+title = "学生指导"
+subtitle = "杜伦大学"
+date = "2023 – 2026"
+content = "联合指导一名博士生（构网型 / 跟网型变流器控制与 AI 策略）以及三名本科 / 硕士项目学生（碳感知电网优化、野火对电力系统的影响）。"
+tags = ["博士", "本科/硕士", "指导"]
 
 [[items]]
-title = "DC and Induction Motor Laboratory"
-subtitle = "杜伦大学 · 实验指导"
-date = "2023 年 5 月"
-content = "协助约 20 名本科生完成直流电机与感应电机实验。"
-tags = ["本科生", "实验"]
-
-[[items]]
-title = "Control and Signal Processing"
-subtitle = "杜伦大学 · 助教"
-date = "2022 年 10 月"
-content = "为约 20 名本科生主持控制系统与信号处理实验课。"
-tags = ["本科生", "助教"]
+title = "电力系统、能源经济学、电力市场、线性代数"
+subtitle = "香港中文大学（深圳）· 助教"
+date = "2018 年 9 月 – 2023 年 7 月"
+content = "为四门全英文模块（每门 30–50 人）独立设计并讲授辅导课，其中三门为无既有教学材料的新开课程。设计 MATLAB/Python 编程作业，主讲潮流分析客座讲座，通过 Blackboard 管理课程。学生评教从 5.31 升至 5.72/6.0（五年间），后期超过学院均值。"
+tags = ["本科生", "助教", "全英文授课"]
 
 [[items]]
 title = "AFHEA 教学资格认证"
 subtitle = "英国高等教育学会（Advance HE）"
-date = "2025 年 10 月"
-content = "基于在杜伦大学的本科教学实践取得的 AFHEA（Associate Fellow, Higher Education Academy）资格认证。"
+date = "2024"
+content = "基于高等教育教学实践获得 AFHEA 认证，并完成杜伦大学包容性课程设计等教学培训。"
 tags = ["教学资格"]

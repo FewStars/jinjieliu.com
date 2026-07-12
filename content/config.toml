@@ -1,25 +1,24 @@
 [site]
 title = "Jinjie Liu"
-description = "Postdoctoral Research Associate at Durham University, working on AI-informed digital twins, virtual power plants, and carbon-aware operation of sustainable energy systems."
+description = "Associate Editor at Nature Energy (Springer Nature); formerly Postdoctoral Research Associate at Durham University working on AI for energy systems: digital twins, virtual power plants, smart energy systems, and carbon accounting."
 favicon = "/favicon.svg"
 last_updated = "July 12, 2026"
 
 [author]
 name = "Jinjie Liu"
-title = "Postdoctoral Research Associate in Energy Systems"
-institution = "Durham University"
+title = "Associate Editor, Nature Energy"
+institution = "Springer Nature"
 avatar = "/profile.jpg"
 
 [social]
 # Contact information (leave blank or delete to hide)
 
 email = "jinjie.liu.energy@gmail.com"
-location = "Durham, UK"
-location_url = "https://www.google.com/maps/search/?api=1&query=Department+of+Engineering+Durham+University"
+location = "Shanghai, China"
+location_url = "https://www.google.com/maps/search/?api=1&query=Springer+Nature+Shanghai"
 location_details = [
-  "Department of Engineering,",
-  "Durham University,",
-  "Durham, DH1 3LE, UK"
+  "Nature Energy, Springer Nature,",
+  "Shanghai, China"
 ]
 google_scholar = "https://scholar.google.com/citations?user=4NdWTLUAAAAJ"
 orcid = "https://orcid.org/0000-0001-6297-7640"

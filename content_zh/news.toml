@@ -1,19 +1,55 @@
 [[news]]
-date = "2026-03"
-content = "向杜伦大学提交博士论文《跟网型—构网型切换下微电网的自适应事件检测与故障分类》。"
+date = "2026-07"
+content = "加入 [*Nature Energy*](https://www.nature.com/nenergy/)（Springer Nature）担任**副编辑（Associate Editor）**，常驻上海办公室。"
+
+[[news]]
+date = "2026"
+content = "受聘为 *IET Energy Systems Integration* **青年编委**。"
+
+[[news]]
+date = "2026"
+content = "以杜伦大学 WES 研究负责人身份组织 INWED 2026 *多校联合 WES 研究会议*，并与 Supergen Energy Networks Hub 青年学者委员会共同组织 *ECR Net Zero 2026* 会议。"
+
+[[news]]
+date = "2026-01"
+content = "赴德国**埃尔朗根-纽伦堡大学（FAU）**担任访问博士后，合作研究通信受限下的虚拟电厂优化。"
 
 [[news]]
 date = "2025-10"
-content = "获英国高等教育学会（Advance HE）颁发 **AFHEA** 教学资格认证。"
+content = "第一作者论文（多技术虚拟电厂参与的主动配电网双层低碳调度）在 **IEEE PES ISGT Europe 2025**（马耳他瓦莱塔）作口头报告。"
 
 [[news]]
-date = "2025-08"
-content = "在山东大学举办的绿色能源与资源国际会议（ICGER）上作口头报告。"
+date = "2025"
+content = "MSCA 博士后基金 2024 申请获欧盟委员会 **Seal of Excellence**（得分 > 85%）。"
+
+[[news]]
+date = "2025-05"
+content = "担任美国**普林斯顿大学**（远程）访问博士后，与 H. Vincent Poor 教授合作研究电力系统低碳韧性转型策略。"
 
 [[news]]
 date = "2025-03"
-content = "第一作者论文《储能支撑微电网的构网型 / 跟网型动态控制与自适应解列判据》发表于 [IEEE ICGEA 2025](https://doi.org/10.1109/ICGEA64602.2025.11009642)（新加坡），差旅由欧盟 Horizon 2020 MSCA-RISE（TESTBED2）项目资助。"
+content = "合作论文（储能支撑微电网的构网型 / 跟网型动态控制）发表于 [IEEE ICGEA 2025](https://doi.org/10.1109/ICGEA64602.2025.11009642)（新加坡）。"
 
 [[news]]
-date = "2025-01"
-content = "加入**中国科学院电工研究所**（北京）裴玮研究员课题组担任访问研究员，为期半年。"
+date = "2024-10"
+content = "受邀在 **AI for NetZero 线上研讨会**（YouTube Live）作报告；同年还在 CHEDDAR 6G 数字孪生研讨会、VPP-WARD 虚拟电厂与 AI 研讨会以及 EPSRC Supergen 风险与韧性日（纽卡斯尔）作报告。"
+
+[[news]]
+date = "2024"
+content = "获英国高等教育学会 **AFHEA** 教学资格认证。"
+
+[[news]]
+date = "2024"
+content = "第一作者论文（超短期风电功率预测）发表于 [IEEE IECON 2024](https://doi.org/10.1109/IECON55916.2024.10905784)。"
+
+[[news]]
+date = "2023-09"
+content = "加入英国**杜伦大学**工学院担任博士后研究员，参与 EPSRC VPP-WARD 与 CHEDDAR 项目。"
+
+[[news]]
+date = "2023-07"
+content = "在**香港中文大学**完成计算机与信息工程博士学位，导师为赵俊华教授。"
+
+[[news]]
+date = "2022"
+content = "获 IEEE 第五届电气与能源大会（[CIEEC 2022](https://doi.org/10.1109/CIEEC54735.2022.9846214)）**最佳论文奖**。"

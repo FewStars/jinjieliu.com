@@ -1,18 +1,18 @@
 [site]
-title = "张薪卓"
-description = "英国杜伦大学电气工程博士生——研究微电网控制与变流器主导电网中的故障检测。"
-last_updated = "2026年4月21日"
+title = "刘金洁"
+description = "Nature Energy 副编辑（Associate Editor）；此前为英国杜伦大学博士后研究员，研究方向为能源系统人工智能：数字孪生、虚拟电厂、智慧能源系统与碳核算。"
+last_updated = "2026年7月12日"
 
 [author]
-name = "张薪卓"
-title = "电气工程博士生"
-institution = "杜伦大学"
+name = "刘金洁"
+title = "Nature Energy 副编辑（Associate Editor）"
+institution = "Springer Nature"
 
 [social]
-location = "英国·杜伦"
+location = "中国·上海"
 location_details = [
-  "英国杜伦大学工学院,",
-  "Durham, DH1 3LE, United Kingdom"
+  "Nature Energy, Springer Nature,",
+  "上海"
 ]
 
 [[navigation]]

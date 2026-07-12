@@ -1,21 +1,51 @@
 type = "card"
 title = "奖项与资助"
-description = "博士期间获得的奖项、基金与荣誉。"
+description = "奖学金、基金与荣誉。"
 
 [[items]]
-title = "AFHEA 教学资格认证"
-subtitle = "英国高等教育学会（Advance HE）"
-date = "2025 年 10 月"
-content = "基于高等教育教学实践取得的 AFHEA（Associate Fellow, Higher Education Academy）资格认证。"
-
-[[items]]
-title = "TESTBED2 国际会议差旅资助"
-subtitle = "欧盟 Horizon 2020 MSCA-RISE"
+title = "Seal of Excellence（MSCA 博士后基金 2024）"
+subtitle = "欧盟委员会"
 date = "2025"
-content = "通过欧盟 Horizon 2020 MSCA-RISE（TESTBED2）项目获得 IEEE ICGEA 2025（新加坡）参会差旅资助。"
+content = "Marie Skłodowska-Curie 博士后基金申请得分超过 85%，获欧盟委员会 Seal of Excellence。"
 
 [[items]]
-title = "杜伦大学博士生奖学金（Durham Doctoral Studentship）"
-subtitle = "杜伦大学工学院"
-date = "2022 – 2026"
-content = "杜伦大学工学院博士生奖学金。"
+title = "最佳论文奖"
+subtitle = "IEEE 第五届电气与能源大会（CIEEC）"
+date = "2022"
+content = "凭借电碳联合市场竞价行为分析研究获 IEEE CIEEC 2022 最佳论文奖。"
+
+[[items]]
+title = "研究生奖学金（Postgraduate Fellowship）"
+subtitle = "香港中文大学"
+date = "2018 – 2023"
+content = "支持博士阶段研究的竞争性奖学金。"
+
+[[items]]
+title = "研究生奖学金（Postgraduate Fellowship）"
+subtitle = "深圳市大数据研究院（SRIBD）"
+date = "2020 – 2022"
+content = "支持智慧城市用电行为与碳排放研究的奖学金。"
+
+[[items]]
+title = "北京市优秀毕业生 · 校级优秀毕业生"
+subtitle = "北京市教委 / 华北电力大学"
+date = "2018"
+content = "本科电气工程及其自动化专业，成绩 92/100。"
+
+[[items]]
+title = "国家级优秀结题"
+subtitle = "全国大学生创新创业训练计划"
+date = "2017"
+content = "全国大学生创新创业训练计划国家级荣誉。"
+
+[[items]]
+title = "Honourable Mention"
+subtitle = "美国大学生数学建模竞赛（MCM）"
+date = "2016 – 2017"
+content = "国际数学建模竞赛 Honourable Mention。"
+
+[[items]]
+title = "一等奖学金"
+subtitle = "华北电力大学"
+date = "2015 – 2018"
+content = "本科期间连续四年获一等奖学金。"
