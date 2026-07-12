@@ -1,0 +1,11 @@
+{
+  // Static-assets-only Worker: serve the Next.js static export from ./out
+  // (prevents wrangler auto-config from applying the OpenNext SSR adapter)
+  "name": "jinjieliu",
+  "compatibility_date": "2026-07-12",
+  "assets": {
+    "directory": "./out",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}
