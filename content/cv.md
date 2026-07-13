@@ -16,9 +16,7 @@
 **Nature Energy, Springer Nature**, Shanghai, China — *Associate Editor* (Jul 2026 – Present)
 - Handling research manuscripts at *Nature Energy*, building on a research background in AI for energy systems, digital twins, virtual power plants, smart energy systems, and carbon accounting.
 
-**Durham University**, Durham, UK — *Postdoctoral Research Associate, Department of Engineering* (Sep 2023 – 2026)
-
-[//]: # "TODO(user): confirm Durham end date/month for the Sep 2023 – 2026 wording."
+**Durham University**, Durham, UK — *Postdoctoral Research Associate, Department of Engineering* (Sep 2023 – Jun 2026)
 - **EPSRC VPP-WARD** (EP/Y005376/1): led digital twin modelling for virtual power plants; developed novel forecasting and risk-aware dispatch optimisation; coordinated research across 3 universities and 11 industrial partners including Siemens, National Grid, and Equinor.
 - **EPSRC CHEDDAR** (EP/X040518/1, EP/Y037421/1): led development of 6G-assisted digital twin architectures for real-time monitoring and control of energy networks.
 - Co-supervised a PhD student on grid-forming/grid-following converter control and three BEng/MSc project students.

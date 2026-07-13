@@ -2,6 +2,4 @@
 
 加入 Springer Nature 之前，我在英国[杜伦大学工学院](https://www.durham.ac.uk/departments/academic/engineering/)担任博士后研究员（2023 – 2026），深度参与两项 EPSRC 重大项目：在 VPP-WARD（EP/Y005376/1）中主导面向韧性与低碳虚拟电厂的数字孪生建模与风险感知调度优化；在 CHEDDAR（EP/X040518/1、EP/Y037421/1）中负责面向能源网络实时监控的通信感知数字孪生架构，合作方包括 Siemens、National Grid、Equinor、Northern Powergrid 等产业伙伴。已发表同行评审论文 17 篇以上，见于 *Applied Energy*、*IEEE Transactions on Industrial Informatics*、*Engineering Applications of Artificial Intelligence*、*Scientific Data* 等期刊，含 2024 年度 ECE 高被引论文一篇及 IEEE CIEEC 2022 最佳论文奖；MSCA 博士后基金申请获欧盟委员会 Seal of Excellence。
 
-[//]: # "TODO(user): 确认杜伦结束年月（正文现为 2023 – 2026 年级别表述）"
-
 我于 2023 年在[香港中文大学](https://www.cuhk.edu.hk)取得计算机与信息工程博士学位，博士论文方向为数据驱动的高分辨率碳排放测量；本科毕业于华北电力大学电气工程及其自动化专业。我持有英国高等教育学会 AFHEA 教学资格认证，在中英两国有七年教学经验，并曾发起并主持杜伦大学女性工程师学会（WES）研究项目。
