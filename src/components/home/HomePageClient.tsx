@@ -36,6 +36,8 @@ export interface HomePageLocaleData {
   features: SiteConfig['features'];
   enableOnePageMode?: boolean;
   researchInterests?: string[];
+  editorialInterests?: string[];
+  researchBackground?: string[];
   pagesToShow: PageData[];
 }
 
@@ -62,6 +64,8 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
             social={data.social}
             features={data.features}
             researchInterests={data.researchInterests}
+            editorialInterests={data.editorialInterests}
+            researchBackground={data.researchBackground}
           />
         </div>
 

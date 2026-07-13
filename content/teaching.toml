@@ -5,14 +5,14 @@ description = "Seven years of teaching experience across the UK and China. Assoc
 [[items]]
 title = "MSc Modules: Environmental Engineering, Smart Energy Networks, Planning and Contract Law"
 subtitle = "Teaching Assistant — Durham University"
-date = "Oct 2024 – 2026"
+date = "Oct 2024 – 2026" # TODO(user): confirm Durham end date/month for Oct 2024 – 2026 wording.
 content = "Led MSc self-study teaching sessions across three modules (ENGI 46715, ENGI 48115, ENGI 47815): group discussions, worked problems, and individual coursework support. Guided students through energy system modelling (power flow, demand-side optimisation, renewable integration) and MATLAB-based computational exercises; provided regular feedback to module leaders."
 tags = ["MSc", "Teaching Assistant"]
 
 [[items]]
 title = "Student Supervision"
 subtitle = "Durham University"
-date = "2023 – 2026"
+date = "2023 – 2026" # TODO(user): confirm Durham end date/month for 2023 – 2026 wording.
 content = "Co-supervised a PhD student on grid-forming/grid-following converter control with AI-based strategies, and three BEng/MSc project students on carbon-aware grid optimisation and wildfire impact on power systems."
 tags = ["PhD", "BEng/MSc", "Supervision"]
 

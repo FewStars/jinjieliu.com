@@ -12,26 +12,41 @@ export async function generateMetadata(): Promise<Metadata> {
   const config = getConfig();
   const runtimeI18n = getRuntimeI18nConfig(config.i18n);
   const openGraphLocale = runtimeI18n.defaultLocale === 'zh' ? 'zh_CN' : 'en_US';
+  const siteUrl = config.site.url || 'https://jinjieliu.com';
+  const seoTitle = config.site.seo_title || config.site.title;
+  const seoDescription = config.site.seo_description || config.site.description;
 
   return {
+    metadataBase: new URL(siteUrl),
     title: {
-      default: config.site.title,
-      template: `%s | ${config.site.title}`,
+      default: seoTitle,
+      template: `%s | ${seoTitle}`,
     },
-    description: config.site.description,
+    description: seoDescription,
     keywords: [config.author.name, 'PhD', 'Research', config.author.institution],
     authors: [{ name: config.author.name }],
     creator: config.author.name,
     publisher: config.author.name,
+    alternates: {
+      canonical: '/',
+    },
     icons: {
       icon: config.site.favicon,
     },
     openGraph: {
       type: 'website',
       locale: openGraphLocale,
-      title: config.site.title,
-      description: config.site.description,
-      siteName: `${config.author.name}'s Academic Website`,
+      url: '/',
+      title: seoTitle,
+      description: seoDescription,
+      siteName: config.site.title,
+      images: ['/profile.jpg'],
+    },
+    twitter: {
+      card: 'summary',
+      title: seoTitle,
+      description: seoDescription,
+      images: ['/profile.jpg'],
     },
   };
 }

@@ -61,12 +61,20 @@ function processSections(sections: SectionConfig[], locale?: string): SectionCon
   });
 }
 
+interface AboutProfileConfig {
+  research_interests?: string[];
+  editorial_interests?: string[];
+  research_background?: string[];
+}
+
 function loadPageDataForLocale(locale: string | undefined): HomePageLocaleData {
   const localeConfig = getConfig(locale);
   const enableOnePageMode = localeConfig.features.enable_one_page_mode;
 
-  const aboutConfig = getPageConfig<{ profile?: { research_interests?: string[] }; sections?: SectionConfig[] }>('about', locale);
+  const aboutConfig = getPageConfig<{ profile?: AboutProfileConfig; sections?: SectionConfig[] }>('about', locale);
   const researchInterests = aboutConfig?.profile?.research_interests;
+  const editorialInterests = aboutConfig?.profile?.editorial_interests;
+  const researchBackground = aboutConfig?.profile?.research_background;
 
   let pagesToShow: PageData[] = [];
 
@@ -133,6 +141,8 @@ function loadPageDataForLocale(locale: string | undefined): HomePageLocaleData {
     features: localeConfig.features,
     enableOnePageMode,
     researchInterests,
+    editorialInterests,
+    researchBackground,
     pagesToShow,
   };
 }
@@ -152,5 +162,43 @@ export default function Home() {
     dataByLocale[runtimeI18n.defaultLocale] = loadPageDataForLocale(undefined);
   }
 
-  return <HomePageClient dataByLocale={dataByLocale} defaultLocale={runtimeI18n.defaultLocale} />;
+  const siteUrl = baseConfig.site.url || 'https://jinjieliu.com';
+  const profileImageUrl = new URL(baseConfig.author.avatar, siteUrl).toString();
+  const sameAs = [
+    baseConfig.social.orcid,
+    baseConfig.social.google_scholar,
+    baseConfig.social.linkedin,
+    baseConfig.social.github,
+  ].filter((url): url is string => Boolean(url));
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ProfilePage',
+    mainEntity: {
+      '@type': 'Person',
+      name: 'Jinjie Liu',
+      jobTitle: 'Associate Editor',
+      worksFor: {
+        '@type': 'Organization',
+        name: 'Springer Nature',
+        department: {
+          '@type': 'Organization',
+          name: 'Nature Energy',
+        },
+      },
+      url: siteUrl,
+      image: profileImageUrl,
+      sameAs,
+    },
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
+      />
+      <HomePageClient dataByLocale={dataByLocale} defaultLocale={runtimeI18n.defaultLocale} />
+    </>
+  );
 }

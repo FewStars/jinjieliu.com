@@ -2,12 +2,17 @@ type = "about"
 title = "About"
 
 [profile]
-research_interests = [
-  "AI-informed digital twins for sustainable energy systems",
-  "Virtual power plants and low-carbon scheduling",
-  "Carbon-aware optimisation and real-time emission estimation",
-  "Resilience of renewable-rich distribution networks",
-  "Energy management for transport electrification and EV charging"
+editorial_interests = [
+  "Energy systems",
+  "Grid technologies",
+  "Energy transition",
+  "AI and digitalisation"
+]
+research_background = [
+  "Digital twins",
+  "Virtual power plants",
+  "Carbon accounting",
+  "Resilient power systems"
 ]
 
 [[sections]]

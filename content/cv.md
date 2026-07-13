@@ -17,12 +17,16 @@
 - Handling research manuscripts at *Nature Energy*, building on a research background in AI for energy systems, digital twins, virtual power plants, smart energy systems, and carbon accounting.
 
 **Durham University**, Durham, UK — *Postdoctoral Research Associate, Department of Engineering* (Sep 2023 – 2026)
+
+[//]: # "TODO(user): confirm Durham end date/month for the Sep 2023 – 2026 wording."
 - **EPSRC VPP-WARD** (EP/Y005376/1): led digital twin modelling for virtual power plants; developed novel forecasting and risk-aware dispatch optimisation; coordinated research across 3 universities and 11 industrial partners including Siemens, National Grid, and Equinor.
 - **EPSRC CHEDDAR** (EP/X040518/1, EP/Y037421/1): led development of 6G-assisted digital twin architectures for real-time monitoring and control of energy networks.
 - Co-supervised a PhD student on grid-forming/grid-following converter control and three BEng/MSc project students.
 - Initiated and led the Women in Engineering Society (WES) Durham research programme; co-organised the ECR Net Zero 2026 conference.
 
 **Friedrich-Alexander-Universität Erlangen-Nürnberg**, Germany — *Visiting Postdoctoral Research Associate* (Jan – Feb 2026)
+
+[//]: # "TODO(user): confirm the formal FAU appointment letter uses this title."
 - Collaborated on communication-constrained virtual power plant optimisation.
 
 **Carbon Monitor Group, Tsinghua University**, Beijing, China — *Research Assistant* (Feb 2022 – Feb 2023)
@@ -41,7 +45,6 @@
 - **Privacy-Preserving ML for Electric-Carbon Collaborative Demand Response** — NSFC General Program (¥0.49M), *Jan 2021 – Jul 2025*. Developed carbon emission measurement and low-carbon grid optimisation models.
 - **Shenzhen Power Grid Planning for Carbon Neutrality** — China Southern Power Grid (¥0.8M), *Oct – Dec 2021*. Proposed carbon accounting methods and low-carbon transition path design.
 - **Financial Market Design for Electricity in Southern China** — CSG Energy Development Research Institute (¥0.8M), *Sep 2019 – Sep 2020*. Studied international electricity markets; drafted strategic reports.
-- **Independent funding development** — MSCA Seal of Excellence; preparing EPSRC New Investigator, Supergen flexible funding, and Innovate UK/IAA proposals on AI-informed digital twins for carbon-aware, resilient energy systems.
 
 ## Teaching
 
@@ -51,7 +54,7 @@ Associate Fellow of the Higher Education Academy (AFHEA). Teaching Assistant for
 
 - **Programming & Tools:** Python (PyTorch, TensorFlow, Pandas), MATLAB/Simulink; Optimisation: Pyomo, YALMIP, Gurobi/CPLEX; LaTeX, Overleaf, Zotero
 - **Teaching Tools:** Blackboard, online/hybrid delivery, MATLAB/Python for educational exercises
-- **Professional:** IEEE Member (since 2019); progressing towards Chartered Engineer (CEng) registration with the IET
+- **Professional:** IEEE Member (since 2019)
 - **Languages:** English (fluent), Mandarin (native)
 
 ## Invited Talks & Presentations

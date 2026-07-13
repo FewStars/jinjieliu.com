@@ -135,3 +135,21 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## www → apex 301 redirect (Cloudflare)
+
+The production canonical host is `jinjieliu.com`. Configure the `www` redirect in Cloudflare:
+
+1. Open the Cloudflare zone `jinjieliu.com`.
+2. Go to Rules → Redirect Rules → Create rule.
+3. Set the condition to hostname equals `www.jinjieliu.com`.
+4. Choose Dynamic redirect with status code `301`.
+5. Use this expression:
+
+   ```text
+   concat("https://jinjieliu.com", http.request.uri.path)
+   ```
+
+6. Enable preserve query string.
+
+Redirect Rules execute before the Worker, so the `www.jinjieliu.com` custom-domain binding can stay in place.

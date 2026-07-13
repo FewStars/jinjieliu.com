@@ -2,12 +2,17 @@ type = "about"
 title = "关于我"
 
 [profile]
-research_interests = [
-  "能源系统人工智能",
-  "数字孪生（Digital Twin）",
-  "虚拟电厂（VPP）与低碳调度",
-  "碳感知优化与实时碳排放核算",
-  "高比例新能源配电网的韧性运行"
+editorial_interests = [
+  "能源系统",
+  "电网技术",
+  "能源转型",
+  "AI 与数字化"
+]
+research_background = [
+  "数字孪生",
+  "虚拟电厂",
+  "碳核算",
+  "韧性电力系统"
 ]
 
 [[sections]]

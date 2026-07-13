@@ -31,20 +31,30 @@ export default function PublicationsList({ config, publications, embedded = fals
     const [expandedBibtexId, setExpandedBibtexId] = useState<string | null>(null);
     const [expandedAbstractId, setExpandedAbstractId] = useState<string | null>(null);
 
+    const publishedPublications = useMemo(
+        () => publications.filter((pub) => pub.status === 'published'),
+        [publications]
+    );
+
+    const manuscriptPublications = useMemo(
+        () => publications.filter((pub) => pub.status !== 'published'),
+        [publications]
+    );
+
     // Extract unique years and types for filters
     const years = useMemo(() => {
-        const uniqueYears = Array.from(new Set(publications.map(p => p.year)));
+        const uniqueYears = Array.from(new Set(publishedPublications.map(p => p.year)));
         return uniqueYears.sort((a, b) => b - a);
-    }, [publications]);
+    }, [publishedPublications]);
 
     const types = useMemo(() => {
-        const uniqueTypes = Array.from(new Set(publications.map(p => p.type)));
+        const uniqueTypes = Array.from(new Set(publishedPublications.map(p => p.type)));
         return uniqueTypes.sort();
-    }, [publications]);
+    }, [publishedPublications]);
 
     // Filter publications
     const filteredPublications = useMemo(() => {
-        return publications.filter(pub => {
+        return publishedPublications.filter(pub => {
             const matchesSearch =
                 pub.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
                 pub.authors.some(author => author.name.toLowerCase().includes(searchQuery.toLowerCase())) ||
@@ -56,7 +66,27 @@ export default function PublicationsList({ config, publications, embedded = fals
 
             return matchesSearch && matchesYear && matchesType;
         });
-    }, [publications, searchQuery, selectedYear, selectedType]);
+    }, [publishedPublications, searchQuery, selectedYear, selectedType]);
+
+    const renderAuthors = (pub: Publication, correspondingClassName: string) => (
+        pub.authors.map((author, idx) => (
+            <span key={idx}>
+                <span className={`${author.isHighlighted ? 'font-semibold text-accent' : ''} ${author.isCoAuthor ? `underline underline-offset-4 ${author.isHighlighted ? 'decoration-accent' : 'decoration-neutral-400'}` : ''}`}>
+                    {author.name}
+                </span>
+                {author.isCorresponding && (
+                    <sup className={`ml-0 ${author.isHighlighted ? 'text-accent' : correspondingClassName}`}>†</sup>
+                )}
+                {idx < pub.authors.length - 1 && ', '}
+            </span>
+        ))
+    );
+
+    const getManuscriptStatusLabel = (pub: Publication) => {
+        if (pub.status === 'under-review') return messages.publications.statusUnderReview;
+        if (pub.status === 'submitted') return messages.publications.statusSubmitted;
+        return pub.status.replace('-', ' ');
+    };
 
     return (
         <motion.div
@@ -217,17 +247,7 @@ export default function PublicationsList({ config, publications, embedded = fals
                                         {pub.title}
                                     </h3>
                                     <p className={`${embedded ? "text-sm" : "text-base"} text-neutral-600 dark:text-neutral-400 mb-2`}>
-                                        {pub.authors.map((author, idx) => (
-                                            <span key={idx}>
-                                                <span className={`${author.isHighlighted ? 'font-semibold text-accent' : ''} ${author.isCoAuthor ? `underline underline-offset-4 ${author.isHighlighted ? 'decoration-accent' : 'decoration-neutral-400'}` : ''}`}>
-                                                    {author.name}
-                                                </span>
-                                                {author.isCorresponding && (
-                                                    <sup className={`ml-0 ${author.isHighlighted ? 'text-accent' : 'text-neutral-600 dark:text-neutral-400'}`}>†</sup>
-                                                )}
-                                                {idx < pub.authors.length - 1 && ', '}
-                                            </span>
-                                        ))}
+                                        {renderAuthors(pub, 'text-neutral-600 dark:text-neutral-400')}
                                     </p>
                                     <p className="text-sm font-medium text-neutral-800 dark:text-neutral-600 mb-3">
                                         {pub.journal || pub.conference} {pub.year}
@@ -338,6 +358,39 @@ export default function PublicationsList({ config, publications, embedded = fals
                     ))
                 )}
             </div>
+            {manuscriptPublications.length > 0 && (
+                <section className="mt-12">
+                    <h2 className={`${embedded ? "text-xl" : "text-2xl"} font-serif font-bold text-primary mb-4`}>
+                        {messages.publications.manuscriptsUnderReview}
+                    </h2>
+                    <div className="space-y-6">
+                        {manuscriptPublications.map((pub, index) => (
+                            <motion.div
+                                key={pub.id}
+                                initial={{ opacity: 0, y: 20 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.4, delay: 0.1 * index }}
+                                className="bg-white dark:bg-neutral-900 p-6 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-800"
+                            >
+                                <h3 className={`${embedded ? "text-lg" : "text-xl"} font-semibold text-primary mb-2 leading-tight`}>
+                                    {pub.title}
+                                </h3>
+                                <p className={`${embedded ? "text-sm" : "text-base"} text-neutral-600 dark:text-neutral-400 mb-2`}>
+                                    {renderAuthors(pub, 'text-neutral-600 dark:text-neutral-400')}
+                                </p>
+                                <p className="text-sm font-medium text-neutral-800 dark:text-neutral-600 mb-3">
+                                    {getManuscriptStatusLabel(pub)}, {pub.year}
+                                </p>
+                                {pub.description && (
+                                    <p className="text-sm text-neutral-600 dark:text-neutral-500 line-clamp-3">
+                                        {pub.description}
+                                    </p>
+                                )}
+                            </motion.div>
+                        ))}
+                    </div>
+                </section>
+            )}
         </motion.div>
     );
 }

@@ -1,4 +1,4 @@
-import { Publication, PublicationType, ResearchArea } from '@/types/publication';
+import { Publication, PublicationStatus, PublicationType, ResearchArea } from '@/types/publication';
 import { getConfig } from './config';
 import { getRuntimeI18nConfig } from './i18n/config';
 
@@ -62,6 +62,9 @@ export function parseBibTeX(bibtexContent: string, locale?: string): Publication
     // Parse preview field (remove braces if present)
     const preview = tags.preview?.replace(/[{}]/g, '');
 
+    const note = cleanBibTeXString(tags.note);
+    const status = derivePublicationStatus(note);
+
     // Create publication object
     const publication: Publication = {
       id: entry.citationKey || tags.id || `pub-${Date.now()}-${index}`,
@@ -70,7 +73,7 @@ export function parseBibTeX(bibtexContent: string, locale?: string): Publication
       year,
       month: monthMapping[tags.month?.toLowerCase()] ? String(month) : tags.month,
       type,
-      status: 'published',
+      status,
       tags: keywords,
       keywords,
       researchArea: detectResearchArea(tags.title, keywords),
@@ -187,7 +190,7 @@ function parseAuthors(authorsStr: string, highlightNames: string[]): Array<{ nam
   const highlightNormalizedList = Array.from(highlightNormalizedCandidates);
 
   // Split by "and" and clean up
-  return authorsStr
+  const authors = authorsStr
     .split(/\sand\s/)
     .map(author => {
       // Clean up the author name
@@ -225,6 +228,31 @@ function parseAuthors(authorsStr: string, highlightNames: string[]): Array<{ nam
       };
     })
     .filter(author => author.name);
+
+  const lastAuthor = authors[authors.length - 1];
+  if (lastAuthor && normalizePersonNameForMatch(lastAuthor.name) === 'others') {
+    authors.pop();
+    const lastRealAuthor = authors[authors.length - 1];
+    if (lastRealAuthor) {
+      lastRealAuthor.name = `${lastRealAuthor.name} et al.`;
+    }
+  }
+
+  return authors;
+}
+
+function derivePublicationStatus(note?: string): PublicationStatus {
+  const normalizedNote = note?.toLowerCase() || '';
+
+  if (normalizedNote.includes('under review')) {
+    return 'under-review';
+  }
+
+  if (normalizedNote.includes('submitted')) {
+    return 'submitted';
+  }
+
+  return 'published';
 }
 
 function cleanBibTeXString(str?: string): string {

@@ -32,10 +32,14 @@ interface ProfileProps {
     social: SiteConfig['social'];
     features: SiteConfig['features'];
     researchInterests?: string[];
+    editorialInterests?: string[];
+    researchBackground?: string[];
 }
 
-export default function Profile({ author, social, features, researchInterests }: ProfileProps) {
+export default function Profile({ author, social, features, researchInterests, editorialInterests, researchBackground }: ProfileProps) {
     const messages = useMessages();
+    const resolvedEditorialInterests = editorialInterests || [];
+    const resolvedResearchBackground = researchBackground || researchInterests || [];
 
     const [hasLiked, setHasLiked] = useState(false);
     const [showThanks, setShowThanks] = useState(false);
@@ -303,14 +307,34 @@ export default function Profile({ author, social, features, researchInterests }:
                 })}
             </div>
 
-            {/* Research Interests */}
-            {researchInterests && researchInterests.length > 0 && (
+            {/* Interest Groups */}
+            {(resolvedEditorialInterests.length > 0 || resolvedResearchBackground.length > 0) && (
                 <div className="bg-neutral-100 dark:bg-neutral-800 rounded-lg p-4 mb-6 hover:shadow-lg transition-all duration-200 hover:scale-[1.02]">
-                    <h3 className="font-semibold text-primary mb-3">{messages.profile.researchInterests}</h3>
-                    <div className="space-y-2 text-sm text-neutral-700 dark:text-neutral-500">
-                        {researchInterests.map((interest, index) => (
-                            <div key={index}>{interest}</div>
-                        ))}
+                    <div className="space-y-4">
+                        {resolvedEditorialInterests.length > 0 && (
+                            <div>
+                                <h3 className="font-semibold text-primary mb-2">{messages.profile.editorialInterests}</h3>
+                                <div className="flex flex-wrap gap-2">
+                                    {resolvedEditorialInterests.map((interest, index) => (
+                                        <span key={index} className="rounded-md bg-white px-2.5 py-1 text-xs text-neutral-700 dark:bg-neutral-900 dark:text-neutral-400">
+                                            {interest}
+                                        </span>
+                                    ))}
+                                </div>
+                            </div>
+                        )}
+                        {resolvedResearchBackground.length > 0 && (
+                            <div>
+                                <h3 className="font-semibold text-primary mb-2">{messages.profile.researchBackground}</h3>
+                                <div className="flex flex-wrap gap-2">
+                                    {resolvedResearchBackground.map((interest, index) => (
+                                        <span key={index} className="rounded-md bg-white px-2.5 py-1 text-xs text-neutral-700 dark:bg-neutral-900 dark:text-neutral-400">
+                                            {interest}
+                                        </span>
+                                    ))}
+                                </div>
+                            </div>
+                        )}
                     </div>
                 </div>
             )}

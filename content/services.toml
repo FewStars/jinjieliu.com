@@ -11,7 +11,7 @@ content = "Serving on the Young Editorial Board of IET Energy Systems Integratio
 [[items]]
 title = "Journal Reviewer"
 subtitle = "Applied Energy, IEEE Trans. Industrial Informatics, IEEE Trans. Network Science and Engineering, and others"
-date = "Ongoing"
+date = "Ongoing" # TODO(user): confirm Durham end date/month for WES Durham role.
 content = "Regular reviewer for Applied Energy, IEEE Transactions on Industrial Informatics, IEEE Transactions on Network Science and Engineering, Journal of Cleaner Production, International Journal of Electrical Power and Energy Systems, IET Smart Grid, and Carbon Neutrality."
 
 [[items]]
@@ -23,7 +23,7 @@ content = "TPC Member for IEEE SmartGridComm 2025/2026; reviewer for IEEE PES Ge
 [[items]]
 title = "Research Lead, Women in Engineering Society (WES) Durham"
 subtitle = "Durham University"
-date = "Ongoing"
+date = "Ongoing" # TODO(user): confirm Durham/Supergen ECR end date/month.
 content = "Initiated and lead the WES Durham research programme; organising the Joint-University WES Research Conference for INWED 2026."
 
 [[items]]
@@ -41,11 +41,11 @@ content = "Participated in drafting standards for load modelling and simulation,
 [[items]]
 title = "Memberships"
 subtitle = "IEEE, Durham Energy Institute, University College SCR"
-date = "2019 – Present"
+date = "2019 – Present" # TODO(user): confirm Durham-tied DEI/SCR end date/month within this membership range.
 content = "Member of IEEE (since 2019); Fellow of the Durham Energy Institute (DEI); Member of the University College Senior Common Room."
 
 [[items]]
 title = "Public Engagement"
 subtitle = "Durham University"
-date = "2024 – 2026"
+date = "2024 – 2026" # TODO(user): confirm Durham public engagement end date/month for 2024 – 2026 wording.
 content = "Represented Durham Engineering at the Get Set Green outreach event, and demonstrated Smart Grid Lab research to visiting DESNZ government representatives."

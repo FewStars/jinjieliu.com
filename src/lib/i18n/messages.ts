@@ -22,6 +22,8 @@ export interface LocaleMessages {
     send: string;
     sendEmail: string;
     researchInterests: string;
+    editorialInterests: string;
+    researchBackground: string;
     like: string;
     liked: string;
     thanks: string;
@@ -41,6 +43,9 @@ export interface LocaleMessages {
     abstract: string;
     bibtex: string;
     code: string;
+    manuscriptsUnderReview: string;
+    statusUnderReview: string;
+    statusSubmitted: string;
   };
   footer: {
     lastUpdated: string;
@@ -72,6 +77,8 @@ const en: LocaleMessages = {
     send: 'Send',
     sendEmail: 'Send Email',
     researchInterests: 'Research Interests',
+    editorialInterests: 'Editorial Interests',
+    researchBackground: 'Research Background',
     like: 'Like',
     liked: 'Liked',
     thanks: 'Thanks!',
@@ -91,6 +98,9 @@ const en: LocaleMessages = {
     abstract: 'Abstract',
     bibtex: 'BibTeX',
     code: 'Code',
+    manuscriptsUnderReview: 'Manuscripts under review',
+    statusUnderReview: 'Under review',
+    statusSubmitted: 'Submitted',
   },
   footer: {
     lastUpdated: 'Last updated',
@@ -122,6 +132,8 @@ const zh: LocaleMessages = {
     send: '发送',
     sendEmail: '发送邮件',
     researchInterests: '研究兴趣',
+    editorialInterests: '编辑关注方向',
+    researchBackground: '研究背景',
     like: '点赞',
     liked: '已点赞',
     thanks: '感谢支持！',
@@ -141,6 +153,9 @@ const zh: LocaleMessages = {
     abstract: '摘要',
     bibtex: 'BibTeX',
     code: '代码',
+    manuscriptsUnderReview: '在审稿件',
+    statusUnderReview: '在审',
+    statusSubmitted: '已投稿',
   },
   footer: {
     lastUpdated: '最近更新',

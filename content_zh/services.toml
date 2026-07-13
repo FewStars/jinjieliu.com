@@ -23,13 +23,13 @@ content = "IEEE SmartGridComm 2025/2026 TPC 委员；IEEE PES General Meeting 20
 [[items]]
 title = "研究负责人 · 女性工程师学会（WES）杜伦分会"
 subtitle = "杜伦大学"
-date = "进行中"
+date = "进行中" # TODO(user): confirm Durham end date/month for WES Durham role.
 content = "发起并主持 WES 杜伦研究项目；组织 INWED 2026 多校联合 WES 研究会议。"
 
 [[items]]
 title = "青年学者委员会委员"
 subtitle = "EPSRC Supergen Energy Networks Hub"
-date = "进行中"
+date = "进行中" # TODO(user): confirm Durham/Supergen ECR end date/month.
 content = "共同组织 ECR Net Zero 2026 会议并担任分会场共同主席。"
 
 [[items]]
@@ -41,11 +41,11 @@ content = "参与 IEEE P2781 负荷建模与仿真标准起草，研究各类系
 [[items]]
 title = "学术团体"
 subtitle = "IEEE · 杜伦能源研究院 · University College SCR"
-date = "2019 至今"
+date = "2019 至今" # TODO(user): confirm Durham-tied DEI/SCR end date/month within this membership range.
 content = "IEEE 会员（2019 至今）；杜伦能源研究院（DEI）Fellow；University College Senior Common Room 成员。"
 
 [[items]]
 title = "公众参与"
 subtitle = "杜伦大学"
-date = "2024 – 2026"
+date = "2024 – 2026" # TODO(user): confirm Durham public engagement end date/month for 2024 – 2026 wording.
 content = "代表杜伦工学院参加 Get Set Green 科普活动，并向到访的英国能源安全与净零部（DESNZ）官员演示智能电网实验室研究成果。"

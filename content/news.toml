@@ -16,7 +16,7 @@ content = "Organising the *Joint-University WES Research Conference* for INWED 2
 
 [[news]]
 date = "2026-01"
-content = "Visiting Postdoctoral Research Associate at **Friedrich-Alexander-Universität Erlangen-Nürnberg**, collaborating on communication-constrained virtual power plant optimisation."
+content = "Visiting Postdoctoral Research Associate at **Friedrich-Alexander-Universität Erlangen-Nürnberg**, collaborating on communication-constrained virtual power plant optimisation." # TODO(user): confirm formal FAU appointment letter uses this title.
 
 [[news]]
 date = "2025-10"

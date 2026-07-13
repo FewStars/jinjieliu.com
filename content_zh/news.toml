@@ -16,7 +16,7 @@ content = "以杜伦大学 WES 研究负责人身份组织 INWED 2026 *多校联
 
 [[news]]
 date = "2026-01"
-content = "赴德国**埃尔朗根-纽伦堡大学（FAU）**担任访问博士后，合作研究通信受限下的虚拟电厂优化。"
+content = "赴德国**埃尔朗根-纽伦堡大学（FAU）**担任访问博士后，合作研究通信受限下的虚拟电厂优化。" # TODO(user): confirm formal FAU appointment letter uses this title.
 
 [[news]]
 date = "2025-10"

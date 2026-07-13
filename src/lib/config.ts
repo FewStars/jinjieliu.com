@@ -7,6 +7,9 @@ export interface SiteConfig {
   site: {
     title: string;
     description: string;
+    url?: string;
+    seo_title?: string;
+    seo_description?: string;
     favicon: string;
     last_updated?: string;
   };

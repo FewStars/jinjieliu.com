@@ -5,14 +5,14 @@ description = "在中英两国累计七年教学经验；2024 年获英国高等
 [[items]]
 title = "硕士模块：环境工程、智慧能源网络、规划与合同法"
 subtitle = "杜伦大学 · 助教"
-date = "2024 年 10 月 – 2026 年"
+date = "2024 年 10 月 – 2026 年" # TODO(user): confirm Durham end date/month for 2024 年 10 月 – 2026 年 wording.
 content = "主持三门硕士模块（ENGI 46715、ENGI 48115、ENGI 47815）的自学辅导课：组织小组讨论、精讲例题、辅导课程作业。指导学生将能源系统建模（潮流分析、需求侧优化、新能源并网）与 MATLAB 计算练习应用于课程项目，并定期向模块负责人反馈教学情况。"
 tags = ["硕士", "助教"]
 
 [[items]]
 title = "学生指导"
 subtitle = "杜伦大学"
-date = "2023 – 2026"
+date = "2023 – 2026" # TODO(user): confirm Durham end date/month for 2023 – 2026 wording.
 content = "联合指导一名博士生（构网型 / 跟网型变流器控制与 AI 策略）以及三名本科 / 硕士项目学生（碳感知电网优化、野火对电力系统的影响）。"
 tags = ["博士", "本科/硕士", "指导"]
 

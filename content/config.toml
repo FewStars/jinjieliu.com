@@ -1,6 +1,9 @@
 [site]
 title = "Jinjie Liu"
 description = "Associate Editor at Nature Energy (Springer Nature); formerly Postdoctoral Research Associate at Durham University working on AI for energy systems: digital twins, virtual power plants, smart energy systems, and carbon accounting."
+url = "https://jinjieliu.com"
+seo_title = "Jinjie Liu, PhD | Associate Editor, Nature Energy"
+seo_description = "Personal website of Jinjie Liu, Associate Editor at Nature Energy, with a research background in AI, digital twins, virtual power plants, carbon accounting, and sustainable energy systems."
 favicon = "/favicon.svg?v=2"
 last_updated = "July 12, 2026"
 
@@ -13,7 +16,7 @@ avatar = "/profile.jpg"
 [social]
 # Contact information (leave blank or delete to hide)
 
-email = "jinjie.liu.energy@gmail.com"
+email = "jinjie.liu@nature.com"
 location = "Shanghai, China"
 location_url = "https://www.google.com/maps/search/?api=1&query=Springer+Nature+Shanghai"
 location_details = [
@@ -27,7 +30,7 @@ linkedin = "https://www.linkedin.com/in/jinjie-liu-553226275"
 
 [features]
 # Show a like button on the about page
-enable_likes = true
+enable_likes = false
 
 # Display all subpages on a single page
 enable_one_page_mode = false
