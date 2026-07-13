@@ -1,7 +1,7 @@
 [site]
 title = "Jinjie Liu"
 description = "Associate Editor at Nature Energy (Springer Nature); formerly Postdoctoral Research Associate at Durham University working on AI for energy systems: digital twins, virtual power plants, smart energy systems, and carbon accounting."
-favicon = "/favicon.svg"
+favicon = "/favicon.svg?v=2"
 last_updated = "July 12, 2026"
 
 [author]

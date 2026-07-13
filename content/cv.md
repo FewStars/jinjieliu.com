@@ -1,7 +1,7 @@
 ## Education
 
 **The Chinese University of Hong Kong** — PhD in Computer and Information Engineering, *2018 – 2023*
-- Thesis: *Data-Driven High-Resolution Carbon Emission Measurement* — Supervisor: Prof. Junhua Zhao
+- Thesis: *Data-Driven High-Resolution Carbon Emission Measurement*
 - Proposed a piecewise unit-level dynamic emission factor (DEF) model; developed NILM-based real-time industrial carbon estimation with deep-learning imputation; extended to 48 Chinese cities and near-real-time global estimation.
 - Supported by a competitive CUHK Postgraduate Fellowship (2018 – 2023) and a Shenzhen Research Institute of Big Data Fellowship (2020 – 2022).
 
@@ -24,9 +24,6 @@
 
 **Friedrich-Alexander-Universität Erlangen-Nürnberg**, Germany — *Visiting Postdoctoral Research Associate* (Jan – Feb 2026)
 - Collaborated on communication-constrained virtual power plant optimisation.
-
-**Princeton University**, USA (Remote) — *Visiting Postdoctoral Research Associate* (May – Jul 2025)
-- Collaborated with Prof. H. Vincent Poor on low-carbon resilient transition strategies for power systems.
 
 **Carbon Monitor Group, Tsinghua University**, Beijing, China — *Research Assistant* (Feb 2022 – Feb 2023)
 - Developed near-real-time carbon emission estimation models for 48 Chinese cities.
