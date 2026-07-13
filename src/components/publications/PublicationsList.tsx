@@ -71,11 +71,11 @@ export default function PublicationsList({ config, publications, embedded = fals
     const renderAuthors = (pub: Publication, correspondingClassName: string) => (
         pub.authors.map((author, idx) => (
             <span key={idx}>
-                <span className={`${author.isHighlighted ? 'font-semibold text-accent' : ''} ${author.isCoAuthor ? `underline underline-offset-4 ${author.isHighlighted ? 'decoration-accent' : 'decoration-neutral-400'}` : ''}`}>
+                <span className={`${author.isHighlighted ? 'font-semibold text-primary' : ''} ${author.isCoAuthor ? 'underline underline-offset-4 decoration-neutral-400' : ''}`}>
                     {author.name}
                 </span>
                 {author.isCorresponding && (
-                    <sup className={`ml-0 ${author.isHighlighted ? 'text-accent' : correspondingClassName}`}>†</sup>
+                    <sup className={`ml-0 ${author.isHighlighted ? 'text-primary' : correspondingClassName}`}>†</sup>
                 )}
                 {idx < pub.authors.length - 1 && ', '}
             </span>
